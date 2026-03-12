@@ -19,6 +19,7 @@ public class MonitorEnergia {
     }
 
     public double media(){
+        ///  ou return media(1, indice);
         double media = 0;
         for(int i = 0; i < indice; i++){
             media += consumo[i];
